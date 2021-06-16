@@ -1,0 +1,230 @@
+<head>
+  <title>Teman Jalan Technical Documentation Page</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="style.css" />
+
+  <nav id="navbar">
+    <!-- Navigation Bar -->
+    <header>Teman Jalan</header>
+    <img class="logo" src="logo.png" />
+    <ul>
+      <a class="nav-link" href="#pendahuluan" rel="internal"
+        ><li>Pendahuluan</li></a
+      >
+      <a class="nav-link" href="#registrasi" rel="internal"
+        ><li>Registrasi</li></a
+      >
+      <a class="nav-link" href="#login" rel="internal"><li>Login</li></a>
+      <a class="nav-link" href="#mau_jalan" rel="internal"
+        ><li>Mau Jalan</li></a
+      >
+
+      <a class="nav-link" href="#join_jalan" rel="internal"
+        ><li>Join Jalan</li></a
+      >
+      <a class="nav-link" href="#cerita_jalan" rel="internal"
+        ><li>Cerita Jalan</li></a
+      >
+      <a class="nav-link" href="#riwayat" rel="internal"><li>Riwayat</li></a>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <!-- Main Document Div Container -->
+    <section class="main-section" id="pendahuluan">
+      <!-- Introduction Container -->
+      <header><u>Pendahuluan</u></header>
+      <article>
+        <h2>Penjelasan Umum</h2>
+        <p>
+          Aplikasi ini merupakan suatu aplikasi yang menghubungkan antara user
+          yang sedang melakukan aktivitas liburan dengan user lain, travel
+          agent, maupun pengelola objek wisata.
+        </p>
+        <h2>Memulai dan Mengoperasikan</h2>
+        <ol>
+          <li>
+            Download aplikasi temanjalan.co melalui google playstore ke
+            perangkat android anda
+          </li>
+          <li>
+            Untuk menjalankan aplikasi temanjalan.co tap atau pilih ikon
+            temanjalan.co yang sebelumnya telah didownload melalui google
+            playstore
+          </li>
+        </ol>
+      </article>
+    </section>
+    <br />
+    <section class="main-section" id="registrasi">
+      <!-- registrasi -->
+      <header><u>Registrasi</u></header>
+      <article>
+        <p>
+          Untuk menampilkan halaman daftar. Pada tampilan utama tap/pilih menu
+          “registrasi” untuk masuk ke halaman pendaftaran seperti gambar dibawah
+          ini:
+        </p>
+        <div>
+          <img src="registrasi.PNG" alt="Registrasi" />
+          <div class="caption">Form Registrasi</div>
+        </div>
+        <p>
+          Untuk melakukan registrasi dilakukan dengan cara mengisi data sebagai
+          berikut:
+        </p>
+        <ul>
+          <li>Email : diisi dengan email user, wajib diisi</li>
+          <li>Password : diisi denganpassword, wajib diisi</li>
+          <li>
+            Confirm password : diisi dengan mengisi ulang password yang telah
+            dimasukan sebelumnya
+          </li>
+          <li>Nama lengkap : diisi dengan nama user</li>
+          <li>Kota tempat tinggal : diisi dengan kota tempat tinggal user</li>
+          <li>Nomor handphone : diisi dengan nomor telepon</li>
+          <li>
+            Jenis kelamin : tap/pilih gender User setelah mengisi data-data di
+            atas dengan lengkap.
+          </li>
+        </ul>
+      </article>
+    </section>
+    <br />
+    <section class="main-section" id="login">
+      <!-- Login -->
+      <header><u>Login</u></header>
+      <article>
+        <p>
+          Jika registrasi berhasil, maka secara otomatis akan beralih ke
+          tampilan utama. Silahkan isi username dan password yang telah anda
+          daftarkan.
+        </p>
+        <img src="login.PNG" <br />
+        <h2 id="tampilan-utama">Tampilan Utama</h2>
+        <p>
+          Nanti akan muncul tampilan dengan menggunakan kodingan python sebagai
+          berikut
+        </p>
+        <code> print {"Hello World!"} </code>
+        <br />
+      </article>
+    </section>
+    <section class="main-section" id="mau_jalan">
+      <!-- Mau Jalan -->
+      <header><u>Mau Jalan</u></header>
+      <article>
+        <p>
+          Fitur ini berguna untuk user yang ingin melakukan perjalanan dan
+          membuka diri untuk user lain bergabung. Tampilan fitur ini adalah
+          sebagai berikut:
+        </p>
+        <img src="maujalan.PNG" <br />
+
+        <p>
+          User yang ingin melakukan perjalanan harus mendaftarkan rencana
+          perjalanannya dengan mengisi kolom sebagai berikut:
+        </p>
+        <ul>
+          <li>Nama trip kamu : diisi dengan nama perjalanan</li>
+          <li>
+            Awal perjalanan kamu : diisi dengan tanggal memulai perjalanan
+          </li>
+          <li>
+            Akhir perjalanan kamu : diisi dengan tanggal selesai perjalanan
+          </li>
+          <li>Tujuan trip kamu : diisi dengan tempat wisata Tujuan</li>
+          <li>
+            Titik kumpul trip kamu : diisi dengan tempat kumpul saat akan
+            berangkat
+          </li>
+          <li>Kuota trip : diisi dengan jumlah maksimal kuota yang dibuka</li>
+          <li>
+            Detail perjalanan : diisi dengan deskripsi singkat tentang
+            perjalanan
+          </li>
+        </ul>
+        <p>untuk melakukan styling pada modul ini menggunakan kode:</p>
+        <code>
+          &lt;style&gt; p { ... } &lt;/style&gt; &lt;p&gt;...&lt;/p&gt; /* Class
+          Selector - selects all of the called class */ &lt;style&gt; .class1 {
+          ... } &lt;/style&gt; &lt;h1 class="class1"&gt;...&lt;/h1&gt; /* Id
+          Selector - selects elements with the unique id attribute */
+          &lt;style&gt; #id1 { ... !important } &lt;/style&gt; &lt;div
+          id="id1"&gt;...&lt;/div&gt; /* Inline Selector - selects individual
+          elements - NOT RECOMMENDED */ &lt;h2 style="color:
+          red;"&gt;...&lt;/h2&gt;
+        </code>
+        <br />
+
+        <section class="main-section" id="join_jalan">
+          <header><u>Join Jalan</u></header>
+          <article>
+            <p>
+              Fitur ini berguna untuk user yang ingin bergabung dengan rencana
+              perjalanan user lain ke tujuan objek wisata yang sama. Fitur ini
+              akan menampilkan list rencana perjalanan yang dibuat oleh user
+              lain. Tampilan fitur ini adalah sebagai berikut:
+            </p>
+            <img src="joinjalan.PNG"
+            <br>
+            <p>untuk bergabung dengan rencana perjalanan yang telah terdaftar di list
+                perjalanan, silahkan tap/pilih “join” pada rencana perjalanan yang anda
+                inginkan.
+                </p>
+                <img src="joinjalan2.PNG"
+            <br>
+            <p>pada modul ini menggunakan kode:</p>
+            <code>
+                a = 10
+                a + 5 = b
+                print { b }
+            </code>
+          </article>
+        </section>
+        <section class="main-section" id="cerita_jalan">
+          <header><u>Cerita Jalan</u></header>
+          <article>
+            <p>Fitur ini digunakan untuk user yang ingin membagikan ceritanya
+                kepada para pembaca teman jalan. Tampilan fitur ini sebagai berikut:
+                </p>
+            <img src="ceritajalan.PNG"
+            <br>
+            <p> dalam modul ini menggunakan kode</p>
+            
+            <code> print {"hello world"}
+            </code>
+          </article>
+        </section>
+        <section class="main-section" id="riwayat">
+          <header><u>Riwayat</u></header>
+          <article>
+          <article>
+            <p>Untuk melihat riwayat perjalanan yang telah anda ikuti dan riwayat
+                perjalanan yang telah anda buat, maka pada menu join jalan tap/pilih icon
+                teman jalan.
+                </p>
+                <img src="riwayat.PNG"
+            <br>
+            <p>Maka akan muncul menu sebagai berikut:
+            </p>
+            <ul>
+                <li>Join trip : daftar riwayat perjalanan yang anda ikuti</li>
+                <li>Tripku : daftar perjalanan yang telah anda buat</li>
+            </ul>
+            <img src="riwayat2.PNG"
+            <br>
+            <p>di modul ini menggunakan kode</p>
+            <code> print {"Hello World"} </code>
+          </article>
+        </section>
+      
+      </article>
+    </section>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+<footer>&copy; Teman Jalan yeee</footer>
